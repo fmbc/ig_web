@@ -1,0 +1,9 @@
+CREATE TABLE dev.wordlist (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `word` varchar(45) DEFAULT NULL,
+  `DateTime` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  PRIMARY KEY (`id`)
+)
+ENGINE=InnoDB
+DEFAULT CHARSET=utf8mb4
+DEFAULT CHARSET=utf8mb4;
